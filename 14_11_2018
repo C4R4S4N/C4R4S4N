@@ -1,0 +1,61 @@
+#include <stdio.h>
+int main (){
+    
+    int brett[8][8];
+    
+    for(int z = 0; z < 8; z++){
+      
+        for(int s = 0; s < 8; s++){
+          
+          brett[z][s] = (z + 1) * 10 + s + 1;
+      }
+    }
+
+    for(int z = 0; z < 8; z++){
+          
+            for(int s = 0; s < 8; s++){
+         
+              printf("%d ",brett[z][s]);
+      }
+    
+    printf ("\n");
+    }
+
+
+   int *ptrBrett = brett;
+    printf("\nAusgabe über Pointer\n");
+        for(int z = 0; z<8; z++){
+            for(int s = 0; s<8; s++){
+                printf("%d ", *ptrBrett++);
+            }
+            printf("\n");
+        }
+        
+
+    array_anzeigen_Pointer(brett);
+    
+    array_anzeigen(brett);
+}
+
+void array_anzeigen_Pointer(int *p){
+    printf("\nAusgabe über Pointer und fucntion\n");
+     for(int z = 0; z<8; z++){
+            for(int s = 0; s<8; s++){
+                printf("%d ", *ptrBrett++);
+            }
+            printf("\n");
+}
+
+void array_anzeigen(int a[8][8]){
+    printf("\nAusgabe über Indizes und fucntion\n");
+     for(int z = 0; z<8; z++){
+            for(int s = 0; s<8; s++){
+                printf("%d ", a[z][s]);
+            }
+            printf("\n");
+}
+ a[2][2]=0;
+ 
+}
+
+void array_anzeigen_Pointer(int *b){
