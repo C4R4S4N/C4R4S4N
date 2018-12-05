@@ -52,5 +52,35 @@ Struktogramm
 
 (Rechteck oben links Steuerung unten Anweisungsblock) .... Schleife
 
+Code:
+
+#include <stdio.h>
+
+void erzeugeArray (int *, int);
+
+void zeigeArrayInConsole (int *, int);
+
+void dreiEcksTausch (int *, int);
+
+int main ()
+{
 
 
+  printf ("Hello World\n");
+  srand(time (0));
+
+  int x = rand ();
+
+
+  printf ("Z1:%d\n", x);
+
+  x = rand ();
+
+  printf ("Z2: %d\n", x);
+
+  return 0;
+}
+
+void zeigeArrayInConsole (int *array, int anz)
+{
+}
