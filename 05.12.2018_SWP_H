@@ -1,0 +1,56 @@
+Bubble-Sort (größte Blase steigt auf)
+
+Z[] = 2<1.Schritt vergleichen>1754
+
+Z[i]> z [ist1] => vertauschen
+
+Ergebnis nach dem ersten Schritt:
+
+1. Schritt: 12<2.Schritt vergleichen>754
+
+2.Schritt 12754
+
+3.Schritt 12574
+
+4.Schritt 12547
+
+|1. Durchlauf: größte Zahl steht and der letzten Stelle|
+
+1. Schritt: 12547
+
+2. Schritt: 12547
+
+3. Schritt: 12457
+
+4. Schritt: 12457
+|2. Durchlauf: zweitgößte Zahl steht an vorletzter Stelle|
+
+
+bei n Zahlen brauchen wir (n-1) Durchläufe, damit die Zahlen sortiert sind
+
+
+bei n Zahlen brauchen wir in 1. DL (n-1) Vergleiche und pro DL um 1 vergleich weniger (weil die größten (n) Zahlen bereits an
+den letzten Stellen stehen)
+
+1+2+3+.........+100
+100+99+98+.....+3+2+1
+101+101+101        +101
+100*101=2* alle Zahlen von 1 bis 100
+50*101=5050= 100
+              Summe i
+              i=1
+             
+             
+Struktogramm
+
+
+
+(Rechteck liegend) .... einzelne Anweisung
+
+(rechteck liegend mit link ja, Bedingung in Mitte und rechts nein) .... Verzweigung
+
+
+(Rechteck oben links Steuerung unten Anweisungsblock) .... Schleife
+
+
+
