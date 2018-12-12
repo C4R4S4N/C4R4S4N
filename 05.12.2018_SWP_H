@@ -53,7 +53,6 @@ Struktogramm
 (Rechteck oben links Steuerung unten Anweisungsblock) .... Schleife
 
 Code nicht fertig:
-
 #include <stdio.h>
 
 void erzeugeArray (int *, int);
@@ -66,26 +65,27 @@ int bubbleSort(int *, int);
 
 int main ()
 {
-
-
-  printf ("Hello World\n");
-  srand(time (0));
-
-  int x = rand ();
-
-
-  printf ("Z1:%d\n", x);
-
-  x = rand ();
-
-  printf ("Z2: %d\n", x);
-
-  return 0;
+ int anz = 10;
+ int z[anz];
+ 
+ erzeugeArray(z, anz);
+ printf("\nDas Array %d mit zufälligen Zahlen: \n", anz)
+ //bubbleSort (z, anz)
+ zeigeArrayInConsole(z, anz);
+ printf("\nZeige %d in geordneter Reihenfolge: \n", anz);
+ zeigeArrayInConsole(z, anz);
+ return 0;
 }
 
 void zeigeArrayInConsole (int *array, int anz)
 {
-    
+    for(int i = 0; i < anz; i++){
+        array [i] = rand() % 100;
+    }
+    return 0;
+}
+void zeigeArrayInConsole(int * array, int anz){
+    for(int i = 0;)
 }
 
 
