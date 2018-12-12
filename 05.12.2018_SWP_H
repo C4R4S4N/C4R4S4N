@@ -52,7 +52,7 @@ Struktogramm
 
 (Rechteck oben links Steuerung unten Anweisungsblock) .... Schleife
 
-Code:
+Code nicht fertig:
 
 #include <stdio.h>
 
@@ -61,6 +61,8 @@ void erzeugeArray (int *, int);
 void zeigeArrayInConsole (int *, int);
 
 void dreiEcksTausch (int *, int);
+
+int bubbleSort(int *, int);
 
 int main ()
 {
@@ -83,6 +85,7 @@ int main ()
 
 void zeigeArrayInConsole (int *array, int anz)
 {
+    
 }
 
 
