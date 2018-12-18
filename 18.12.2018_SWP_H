@@ -1,0 +1,35 @@
+2 "Minsort"
+
+2_ 1 3 7 5 9 6
+_Minimum suchen von 2-ten bis letzten Zahl
+Vergleich mit 1 Zahl ==> eventuell tauschen
+1_ 2_ 3 7 5 9 6
+2.DL Min suchen von 3-ten bis letzter Zahl
+Vergleich mit 2-te Zahl, ==> eventuell Tausch
+:
+:
+:
+
+
+3 "Quicksort"
+0 1 2 3 4 5 6
+2 1 3 7 5 9 6_ <= Pivot
+^->   ^ ^   <-^
+i   i=3|j=4  j
+    tausche
+    X[i] mit x[j]
+    
+2 1 3 5       7 9 6_ <= Pivot
+      ^
+    i=3-->  j=4
+    <--   -->
+    i=3   j=4
+        ^
+      1. DL fertig
+          x[i] mit pivot vergleich
+          
+2 1 3 5 6_ 9 7
+
+
+
+|BIS NACH WEIHNACHTEN ALLE 3 SOIRTIERER IN EINEM PROGRAMM|
