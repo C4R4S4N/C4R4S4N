@@ -1,0 +1,8 @@
+Zufallszahl im Bereich:
+rand() .... Zufallszahl vom typ int [0, 32768]
+für Zahl aus [0; 100[
+rand() %100; 
+für Zahlen aus [20; 50[
+rand() % 30+20;
+für Zahlen aus [ug; og[
+rand()% (og-ug)+ug;
